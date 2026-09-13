@@ -1,0 +1,26 @@
+
+@import "tailwindcss";
+
+:root {
+  --brand-gradient: linear-gradient(90deg, #f97316 0%, #ec4899 55%, #8b5cf6 100%);
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+.brand-gradient-text {
+  background-image: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.brand-gradient-bg {
+  background-image: var(--brand-gradient);
+}
+
+.Toastify__toast {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
